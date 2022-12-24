@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.nature-view-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://assets.ccbp.in/frontend/content/intermediate-rwd/nature-view-portrait.png");
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    margin-bottom: 15px;
+    max-width: 300px;
+    line-height: 1.52;
+}
+
+.button {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: #22c3ea;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (orientation:landscape) {
+    .nature-view-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        text-align: center;
+        height: 100vh;
+        background-image: url('https://assets.ccbp.in/frontend/content/intermediate-rwd/nature-view-landscape.png');
+    }
+
+    .button {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+        background-color: #0275d8;
+    }
+
+    .heading {
+        font-size: 48px;
+        color: #ffffff;
+        font-family: "Roboto";
+        margin-bottom: 15px;
+    }
+}
